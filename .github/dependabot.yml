@@ -12,3 +12,7 @@ updates:
         directory: "/"
         schedule:
             interval: "weekly"
+    -   package-ecosystem: "npm"
+        directory: "/src/main/resources/webgoat/static/js/libs"
+        schedule:
+            interval: "weekly"
